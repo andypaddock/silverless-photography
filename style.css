@@ -15,6 +15,10 @@ body {
     color: #f7f3f2;
 }
 
+.home .darkest-wrapper {
+    border-radius: 1rem 0;
+}
+
 .button__global {
     background: #FE4C42;
 }
