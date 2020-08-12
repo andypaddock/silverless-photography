@@ -40,7 +40,7 @@ get_header();?>
             <h3 class="heading heading__4"><?php the_field('cta_heading');?></h3>
             <span class="link-highlight"></span>
             <a href="<?php the_field('cta_button_target');?>"
-                class="button button__arrowright button__light"><?php the_field('cta_button_text');?><?php get_template_part("inc/img/arrow");?></a>
+                class="button button__bare"><?php the_field('cta_button_text');?></a>
         </div>
     </div>
 </div>
