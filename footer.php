@@ -21,6 +21,8 @@
                     </div>
                 </div>
             </div>
+            <?php endif; ?>
+            <?php if (!is_page( array('2'))): ?>
             <div class="content-wrapper dark-wrapper">
                 <div class="container">
                     <a href="<?php echo get_home_url(); ?>"
