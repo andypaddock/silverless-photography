@@ -34,6 +34,7 @@ get_header();?>
     </div>
 </div>
 <div class="outer-container">
+    <?php if (get_field('cta_heading')):?>
     <?php $ctaBackground = get_field('cta_background_image');?>
     <div class="container content cta" style="background:url(<?php echo $ctaBackground['url'];?>);">
         <div class="content">
@@ -43,6 +44,7 @@ get_header();?>
                 class="button button__bare"><?php the_field('cta_button_text');?></a>
         </div>
     </div>
+    <?php endif;?>
 </div>
 <div class="container-overflow-right mb10">
     <div class="content-wrapper light-wrapper">
