@@ -25,7 +25,8 @@ body {
 
 .hamburger-menu::before,
 .hamburger-menu::after,
-.hamburger-menu {
+.hamburger-menu,
+.slide-nav__item:before {
     background: #FE4C42;
 }
 
