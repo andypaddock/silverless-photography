@@ -27,8 +27,10 @@
                         class="silverless"><?php get_template_part('inc/img/silverless', 'logo');?></a>
                     <div class="footer-contact">
                         <p>
-                            <a href="">+44 (0)1672 556532</a>
-                            <a href="">hello@silverless.co.uk</a>
+                            <a href="tel:<?php the_field('phone_number', 'options');?>">Phone:
+                                <?php the_field('phone_number', 'options');?></a>
+                            <a href="mailto:<?php the_field('email_-_general', 'options');?>" target="_blank">Email:
+                                <?php the_field('email_-_general', 'options');?></a>
                         </p>
 
                         <?php get_template_part("template-parts/social");?>
