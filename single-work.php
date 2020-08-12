@@ -60,12 +60,12 @@ get_header();?>
     <div class="content-wrapper light-wrapper">
         <div class="work-leaders">
             <div class="other-safari">
-                <h3 class="heading heading__3 mb3">Other Safaris</h3>
+                <h3 class="heading heading__3 mb3">Other Categories</h3>
                 <?php
                     $currentID = get_the_ID();
                     $loop = new WP_Query(
                         array(
-                            'post_type' => 'safari',
+                            'post_type' => 'work',
                             'posts_per_page' => -1,
                             'post__not_in' => array($currentID),
                         )
