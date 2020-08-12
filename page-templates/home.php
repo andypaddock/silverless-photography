@@ -71,9 +71,9 @@ get_header();?>
 <div class="container">
     <div class="footer-contact">
         <p>
-            <a href="tel:<?php the_field('phone_number', 'options');?>">Phone:
+            <a href="tel:<?php the_field('phone_number', 'options');?>">
                 <?php the_field('phone_number', 'options');?></a>
-            <a href="mailto:<?php the_field('email_-_general', 'options');?>" target="_blank">Email:
+            <a href="mailto:<?php the_field('email_-_general', 'options');?>" target="_blank">
                 <?php the_field('email_-_general', 'options');?></a>
         </p>
 
@@ -83,6 +83,7 @@ get_header();?>
     <div class="footer-home-copy">
         <p>We are a multi-skilled international design studio with traditional values and cutting-edge output.</p>
         <p>We build long-lasting relationships with likeminded, ambitious clients.</p>
+        <a href="<?php the_sub_field('button_target');?>" class="button button__ghost mb3">Find Out More</a>
     </div>
 </div>
 
