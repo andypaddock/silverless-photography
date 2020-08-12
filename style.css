@@ -121,3 +121,7 @@ body {
 #menu-mandatory-menu li a {
     color: white;
 }
+
+.page-template-legal .darkest-wrapper {
+    border-radius: 1rem 0;
+}
