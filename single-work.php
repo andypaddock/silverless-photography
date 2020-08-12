@@ -76,7 +76,7 @@ get_header();?>
                     <h3 class="heading heading__7"><?php the_title(); ?></h4>
                         <p><?php echo $text; ?></p>
                         <a href="<?php the_permalink(); ?>" class="button button__bare button__bare--brand"
-                            alt="silverless studio | <?php the_title(); ?>">Read More</a>
+                            alt="silverless studio | <?php the_title(); ?>">See Portfolio</a>
                 </div>
                 <div class="image" style="background:url(<?php echo $leaderImage['url'];?>);"></div>
 
