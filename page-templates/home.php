@@ -81,9 +81,9 @@ get_header();?>
 
     </div>
     <div class="footer-home-copy">
-        <p>We are a multi-skilled international design studio with traditional values and cutting-edge output.</p>
-        <p>We build long-lasting relationships with likeminded, ambitious clients.</p>
-        <a href="<?php the_sub_field('button_target');?>" class="button button__ghost mb3 mt3">Find Out More</a>
+        <?php the_field('tag_line', 'options');?>
+        <a href="<?php the_field('tag_line_button', 'options');?>" class="button button__ghost mb3 mt3">Find Out
+            More</a>
     </div>
 </div>
 
