@@ -67,19 +67,19 @@ get_header();?>
 
 
 </div>
-<div class="container-wrapper">
-    <div class="container">
-        <div class="footer-contact">
-            <p>
-                <a href="">+44 (0)1672 556532</a>
-                <a href="">hello@silverless.co.uk</a>
-            </p>
 
-            <?php get_template_part("template-parts/social");?>
+<div class="container">
+    <div class="footer-contact">
+        <p>
+            <a href="">+44 (0)1672 556532</a>
+            <a href="">hello@silverless.co.uk</a>
+        </p>
 
-        </div>
+        <?php get_template_part("template-parts/social");?>
+
     </div>
 </div>
+
 </div>
 <!--outer-container-->
 
