@@ -117,3 +117,7 @@ body {
 .quote svg path {
     fill: white;
 }
+
+#menu-mandatory-menu li a {
+    color: white;
+}
