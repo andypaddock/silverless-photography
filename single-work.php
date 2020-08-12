@@ -27,21 +27,9 @@ get_header();?>
 </div>
 <div class="outer-container mb10">
     <div class="container content">
-        <div class="toggle-list work-detail">
-            <div class="sticky sidebar-quote">
-                <?php get_template_part("inc/img/quote"); ?>
-                <?php get_template_part('template-parts/_testimonial-sidebar');?>
-            </div>
-        </div>
-        <div class="safari-copy">
+        <div class="work-gallery">
             <?php get_template_part('template-parts/flexible-gallery');?>
-            <?php if (get_field('quote')):?>
-            <div class="quote">
-                <?php get_template_part("inc/img/quote"); ?>
-                <p class="copy"><?php the_field('quote');?></p>
-                <p class="attrib"><?php the_field('quote_attrib');?></p>
-            </div>
-            <?php endif;?>
+
         </div>
     </div>
 </div>
