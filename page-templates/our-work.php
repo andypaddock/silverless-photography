@@ -48,7 +48,7 @@ get_header();?>
             <h3 class="heading heading__7"><?php the_title(); ?></h4>
                 <p><?php echo $text; ?></p>
                 <span class="dark-highlight"></span>
-                <a href="<?php the_permalink(); ?>" class="button button__arrowright"
+                <a href="<?php the_permalink(); ?>" class="button button__bare button__bare--brand"
                     alt="silverless studio | <?php the_title(); ?>">Read
                     More<?php get_template_part("inc/img/arrow");?></a>
         </div>
