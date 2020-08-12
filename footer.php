@@ -48,7 +48,7 @@
                                 class="no-wrap">VAT No. GB 101 7040 78</span>
                             <span class="no-wrap">
                                 <a href="/photography/privacy-policy/">Privacy policy</a>
-                                <a href="../terms-conditions/">Terms & Conditions</a>
+                                <a href="/photography/terms-conditions/">Terms & Conditions</a>
                             </span>
                         </p>
                     </div>
