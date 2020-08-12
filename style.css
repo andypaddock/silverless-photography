@@ -19,6 +19,10 @@ body {
     background: #29232C;
 }
 
+.home .footer-contact {
+    grid-column: 2/4;
+}
+
 .slide-nav {
     color: #4a4a49;
 }
