@@ -28,6 +28,10 @@ body {
     grid-column: 5/9;
 }
 
+.single-work {
+    grid-column: 2/3;
+}
+
 .slide-nav {
     color: #4a4a49;
 }
