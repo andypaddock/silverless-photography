@@ -19,6 +19,14 @@ body {
     border-radius: 1rem 0;
 }
 
+.slide-nav {
+    color: #4a4a49;
+}
+
+.slide-nav__item.hit {
+    color: #cbc8c7;
+}
+
 .button__global {
     background: #FE4C42;
 }
