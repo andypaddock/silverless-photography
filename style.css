@@ -32,6 +32,10 @@ body {
     grid-column: 2/3;
 }
 
+.work-gallery {
+    grid-column: 1/13;
+}
+
 .slide-nav {
     color: #4a4a49;
 }
