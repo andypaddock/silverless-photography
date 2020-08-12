@@ -1,0 +1,77 @@
+/* 
+Theme Name:		 Silverless Photography
+Theme URI:		 https://silverless.co.uk/
+Description:	 Silverless Photography is a child theme of Silverless, created by ChildTheme-Generator.com
+Author:			 Silverless
+Author URI:		 https://silverless.co.uk/
+Template:		 silverless-studio
+Version:		 1.0.0
+Text Domain:	 silverless-photography
+*/
+
+
+body {
+    background: #29232C;
+    color: #f7f3f2;
+}
+
+.button__global {
+    background: #FE4C42;
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after,
+.hamburger-menu {
+    background: #FE4C42;
+}
+
+.nav-trigger span {
+    color: #FE4C42;
+}
+
+.st1 {
+    fill: #f7f3f2 !important;
+}
+
+.dark-wrapper {
+    background: #211b24;
+}
+
+.light-wrapper {
+    background: #211b24;
+}
+
+.team .lead-copy {
+    grid-column: 1/13;
+    grid-column-end: 9;
+    padding-left: 2rem;
+}
+
+.form-field {
+    background: #211b24;
+}
+
+.checkbox label::before {
+    background: #211b24;
+}
+
+.wpcf7-submit {
+    width: 100%;
+}
+
+.first .container {
+    grid-template-rows: auto auto;
+}
+
+.slide.first .inner-content {
+    grid-row: 2;
+    grid-column: 2/10;
+}
+
+.inner-content .heading__4 {
+    font-size: 2rem;
+}
+
+.footer-upper-content {
+    padding: 5rem 0;
+}
