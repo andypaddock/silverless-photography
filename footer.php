@@ -9,7 +9,7 @@
 <footer class="footer">
     <div class="wrapper">
         <div class="container-overflow-right">
-            <?php if (!is_page( '2', '15' )): ?>
+            <?php if (!is_page( array('2', '15' ))): ?>
             <div class="content-wrapper image-wrapper dark-overlay"
                 style="background:url(<?php echo $footerImage['url'];?>);">
                 <div class="container">
