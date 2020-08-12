@@ -21,6 +21,11 @@ body {
 
 .home .footer-contact {
     grid-column: 2/4;
+    padding: 0;
+}
+
+.home .footer-home-copy {
+    grid-column: 5/9;
 }
 
 .slide-nav {
