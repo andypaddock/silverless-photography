@@ -9,11 +9,10 @@ get_header();?>
 </div>
 <!--outer-container-->
 <?php $heroBackground = get_field('banner_image');?>
-<div class="single single-safari">
+<div class="single single-work">
     <div class="outer-container hero">
         <div class="container">
-            <div class="content-wrapper" style="background:url(<?php echo $heroBackground['url'];?>);">
-            </div>
+
 
             <div class="content">
                 <h3 class="heading heading__2"><?php the_field('heading');?></h3>
