@@ -47,8 +47,8 @@ get_header();?>
 <div class="container-overflow-right mb10">
     <div class="content-wrapper light-wrapper">
         <div class="work-leaders">
-            <div class="other-safari">
-                <h3 class="heading heading__3 mb3">Other Categories</h3>
+            <div class="container">
+                <h3 class="heading heading__3">Other Projects</h3>
                 <?php
                     $currentID = get_the_ID();
                     $loop = new WP_Query(
@@ -73,10 +73,8 @@ get_header();?>
                 <div class="content">
                     <h3 class="heading heading__7"><?php the_title(); ?></h4>
                         <p><?php echo $text; ?></p>
-                        <span class="dark-highlight"></span>
-                        <a href="<?php the_permalink(); ?>" class="button button__arrowright"
-                            alt="silverless studio | <?php the_title(); ?>">Read
-                            More<?php get_template_part("inc/img/arrow");?></a>
+                        <a href="<?php the_permalink(); ?>" class="button button__bare button__bare--brand"
+                            alt="silverless studio | <?php the_title(); ?>">Read More</a>
                 </div>
                 <div class="image" style="background:url(<?php echo $leaderImage['url'];?>);"></div>
 
