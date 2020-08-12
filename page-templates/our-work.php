@@ -50,7 +50,7 @@ get_header();?>
                 <span class="dark-highlight"></span>
                 <a href="<?php the_permalink(); ?>" class="button button__bare button__bare--brand"
                     alt="silverless studio | <?php the_title(); ?>">Read
-                    More<?php get_template_part("inc/img/arrow");?></a>
+                    More</a>
         </div>
         <div class="image" style="background:url(<?php echo $leaderImage['url'];?>);"></div>
 
