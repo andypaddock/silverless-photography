@@ -216,10 +216,17 @@ a {
 .team-member .heading__4 {
     margin-bottom: 0.5rem;
     color: #4a4a49;
-    text-transform: uppercase;
 }
 
 .team-member .heading__6 {
     color: #707070;
-    margin-bottom: 3rem;
+}
+
+.team .lead-copy p {
+    color: white;
+}
+
+.team .heading {
+    text-transform: uppercase;
+
 }
