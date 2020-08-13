@@ -103,10 +103,6 @@ a {
   font-size: 2rem;
 }
 
-.footer-upper-content {
-  padding: 5rem 0;
-}
-
 .quote {
   padding: 0 4rem;
 }
@@ -209,4 +205,15 @@ a {
 }
 .team .heading {
   text-transform: uppercase;
+}
+
+.footer-upper-content {
+  padding: 5rem 0;
+}
+.footer-upper-content .heading {
+  width: unset;
+  text-transform: uppercase;
+}
+.footer-upper-content .heading .no-wrap {
+  display: inline-block;
 }
