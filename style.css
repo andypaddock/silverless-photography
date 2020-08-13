@@ -144,6 +144,11 @@ body {
     margin-top: 0.5rem;
 }
 
+.controls ul li::before {
+    content: unset;
+    padding: 0;
+}
+
 .controls li {
     cursor: pointer;
     list-style: none;
