@@ -212,3 +212,12 @@ a {
 .toggle-list i {
     padding-left: 2rem;
 }
+
+.team-member .heading__4 {
+    margin-bottom: 0.5rem;
+    color: #4a4a49;
+}
+
+.team-member .heading__6 {
+    color: #707070;
+}
