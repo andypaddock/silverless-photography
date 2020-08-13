@@ -45,12 +45,8 @@ get_header();?>
         </div>
     </div>
     <div class="container news-feed content">
-
-        <?php global $switched;
-    switch_to_blog(1);
-    echo 'You switched from blog ' . $switched . ' to 1';
-    restore_current_blog();
-    echo 'You switched back.'; $silverlessPosts = new WP_Query(array(
+        <?php switch_to_blog(1); ?>
+        <?php $silverlessPosts = new WP_Query(array(
 				'post_type'=>'post',
 				'post_status'=>'publish',
 				'posts_per_page'=>16
@@ -73,6 +69,7 @@ get_header();?>
                     More</a>
         </div>
         <?php endwhile; wp_reset_postdata();endif; ?>
+        <?php restore_current_blog(); ?>
     </div>
 
 </div>
