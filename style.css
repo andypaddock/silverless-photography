@@ -47,11 +47,11 @@ a {
   color: #cbc8c7;
 }
 
-.button {
+.footer .button {
   padding: 1rem 2rem;
   text-align: center;
 }
-.button__global {
+.footer .button__global {
   background: #FE4C42;
 }
 
