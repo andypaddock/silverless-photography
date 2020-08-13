@@ -68,7 +68,7 @@ get_header();?>
 
 </div>
 
-<div class="container">
+<div class="container content">
     <div class="footer-contact">
         <p>
             <a href="tel:<?php the_field('phone_number', 'options');?>">
