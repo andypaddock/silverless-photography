@@ -169,6 +169,10 @@ body {
     font-weight: 600;
 }
 
+.single .hero .content-wrapper {
+    grid-column: 2/13;
+}
+
 .single .news-fix {
     margin-top: -10vh;
 }
