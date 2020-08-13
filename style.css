@@ -191,3 +191,11 @@ body {
     grid-gap: 3rem;
     grid-template-columns: repeat(8, 1fr);
 }
+
+.toggle-list__item .trigger {
+    line-height: unset;
+}
+
+.toggle-list i {
+    padding-left: 2rem;
+}
