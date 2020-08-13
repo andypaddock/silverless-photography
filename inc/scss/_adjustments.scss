@@ -233,9 +233,12 @@ a {
     .heading {
         width: unset;
         text-transform: uppercase;
+        font-size: 2.2rem;
 
         .no-wrap {
             display: inline-block;
+            text-transform: unset;
+            font-size: 3rem;
         }
     }
 }
