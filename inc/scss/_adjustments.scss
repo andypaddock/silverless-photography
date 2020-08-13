@@ -97,10 +97,6 @@ a {
     font-size: 2rem;
 }
 
-.footer-upper-content {
-    padding: 5rem 0;
-}
-
 .quote {
     padding: 0 4rem;
 
@@ -228,5 +224,18 @@ a {
 
     .heading {
         text-transform: uppercase;
+    }
+}
+
+.footer-upper-content {
+    padding: 5rem 0;
+
+    .heading {
+        width: unset;
+        text-transform: uppercase;
+
+        .no-wrap {
+            display: inline-block;
+        }
     }
 }
