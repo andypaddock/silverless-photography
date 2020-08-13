@@ -168,3 +168,11 @@ body {
 .controls .mixitup-control-active {
     font-weight: 600;
 }
+
+.single .news-fix {
+    margin-top: -10vh;
+}
+
+.single .news-fix .content-wrapper {
+    border-radius: 0 0 0 1rem;
+}
