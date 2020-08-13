@@ -46,7 +46,11 @@ get_header();?>
     </div>
     <div class="container news-feed content">
 
-        <?php $silverlessPosts = new WP_Query(array(
+        <?php global $switched;
+    switch_to_blog(1);
+    echo 'You switched from blog ' . $switched . ' to 1';
+    restore_current_blog();
+    echo 'You switched back.'; $silverlessPosts = new WP_Query(array(
 				'post_type'=>'post',
 				'post_status'=>'publish',
 				'posts_per_page'=>16
