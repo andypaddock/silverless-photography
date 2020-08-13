@@ -169,6 +169,11 @@ body {
     font-weight: 600;
 }
 
+.single .hero. .heading {
+    display: flex;
+    align-items: center;
+}
+
 .single .hero .content-wrapper {
     grid-column: 2/13;
 }
@@ -190,6 +195,10 @@ body {
     grid-column: 5/13;
     grid-gap: 3rem;
     grid-template-columns: repeat(8, 1fr);
+}
+
+.toggle-list__item {
+    padding-bottom: 1rem;
 }
 
 .toggle-list__item .trigger {
