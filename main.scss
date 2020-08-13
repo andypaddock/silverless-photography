@@ -1,0 +1,14 @@
+/* === Global SASS File === //
+Handles import of all Sass and partials, outputting as style.css
+!
+Theme Name: Silverless Photography
+Theme URI:		 https://silverless.co.uk/
+Description:	 Silverless Photography is a child theme of Silverless
+Author:			 Silverless
+Author URI:		 https://silverless.co.uk/
+Template:		 silverless-studio
+Version:		 1.0.0
+Text Domain:	 silverless-photography
+*/
+/* === 1 - ADJUSTMENTS ===*/
+@import "inc/scss/adjustments.scss";
