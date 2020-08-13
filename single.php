@@ -59,12 +59,7 @@ get_header();?>
             <p class="date"><?php echo get_the_date('d.m.Y'); ?></p>
             <h2 class="heading heading__4"><?php the_field('sub_headline');?></h2>
             <div class="copy">
-                <?php global $switched;
-    switch_to_blog(1);
-    echo 'You switched from blog ' . $switched . ' to 1';
-    restore_current_blog();
-    echo 'You switched back.';
-                if ( have_posts() ) {
+                <?php if ( have_posts() ) {
     						while ( have_posts() ) {
     							the_post();
     							the_content();
