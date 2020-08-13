@@ -60,7 +60,7 @@ get_header();?>
         $slugs = wp_list_pluck($categories, 'slug');
         $class_names = join(' ', $slugs);
 			$postThumbImage = get_field('thumbnail_image'); ?>
-        <div class="news-feed__item mix<?php if ($class_names) { echo ' ' . $class_names;} ?>">
+        <div class="news-feed__item mix<?php if ($class_names) { echo ' ' . $class_names;} ?> mb3">
             <div class="image" style="background:url(<?php echo $postThumbImage['url'];?>);"><a
                     href="<?php the_permalink(); ?>"></a></div>
             <p class="date"><?php echo get_the_date('d.m.Y'); ?></p>
