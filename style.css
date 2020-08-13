@@ -180,3 +180,14 @@ body {
 .single .news-fix .content-wrapper {
     border-radius: 0 0 0 1rem;
 }
+
+.other-news .heading {
+    grid-column: 5/13;
+}
+
+.other-news .news-offset {
+    display: grid;
+    grid-column: 5/13;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(8, 1fr);
+}
