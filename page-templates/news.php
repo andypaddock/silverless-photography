@@ -22,7 +22,7 @@ get_header();?>
 </div>
 
 <div class="outer-container">
-    <div class="container">
+    <div class="container content">
         <div class="controls">
             <!-- Get a list of all categories in the database, excluding those not assigned to posts -->
             <span class="filter-heading">Filter</span>
@@ -44,7 +44,7 @@ get_header();?>
             </ul>
         </div>
     </div>
-    <div class="container news-feed">
+    <div class="container news-feed content">
 
         <?php $silverlessPosts = new WP_Query(array(
 				'post_type'=>'post',
@@ -65,8 +65,8 @@ get_header();?>
             <h3 class="heading heading__7"><?php the_title(); ?></h4>
                 <?php the_excerpt(); ?>
                 <span class="dark-highlight"></span>
-                <a href="<?php the_permalink(); ?>" class="button button__arrowright">Read
-                    More<?php get_template_part("inc/img/arrow");?></a>
+                <a href="<?php the_permalink(); ?>" class="button button__bare button__bare--brand">Read
+                    More</a>
         </div>
         <?php endwhile; wp_reset_postdata();endif; ?>
     </div>
