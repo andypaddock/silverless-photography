@@ -28,6 +28,7 @@ get_header();?>
             <span class="filter-heading">Filter</span>
             <ul>
                 <li type="button" data-filter="all">All</li>
+                <?php switch_to_blog(1); ?>
                 <?php
     $all_categories = get_categories(array(
         'hide_empty' => true
@@ -41,6 +42,7 @@ get_header();?>
 
                 <li type="button" data-filter=".<?php echo $category->slug; ?>"><?php echo $category->name; ?></li>
                 <?php endforeach; ?>
+                <?php restore_current_blog(); ?>
             </ul>
         </div>
     </div>
