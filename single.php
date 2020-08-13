@@ -59,8 +59,8 @@ get_header();?>
             <p class="date"><?php echo get_the_date('d.m.Y'); ?></p>
             <h2 class="heading heading__4"><?php the_field('sub_headline');?></h2>
             <div class="copy">
-                <?php switch_to_blog( 1); ?>
-                <?php if ( have_posts() ) {
+                <?php switch_to_blog( 1); 
+                if ( have_posts() ) {
     						while ( have_posts() ) {
     							the_post();
     							the_content();
