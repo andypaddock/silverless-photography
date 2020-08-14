@@ -68,13 +68,13 @@ while ( have_rows('gallery') ) : the_row();?>
     <?php elseif( get_row_layout() == 'video' ):?>
     <?php $imageHeight = get_sub_field('height');?>
     <div class="gallery__video slide-up" style="height:<?php echo $imageHeight;?>vh;">
-        <?php if( have_rows('background_video') ):
-        while ( have_rows('background_video') ) : the_row();
-        $video = get_field('background_video');?>
+        <?php $video = get_field('background_video'); 
+        if($video):
+        ?>
         <video controls id="myVideo">
             <source src="<?php echo $video['url'];?>" type="video/mp4">
         </video>
-        <?php endwhile; endif; //image repeater?>
+        <?php endif; //image repeater?>
     </div>
 
 
