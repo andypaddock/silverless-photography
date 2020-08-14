@@ -231,7 +231,7 @@ a {
   font-size: 3rem;
 }
 
-.gallery__video {
+.gallery__video a {
   grid-column: span 12;
   height: 35vh;
 }
