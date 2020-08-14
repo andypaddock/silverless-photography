@@ -71,7 +71,7 @@ while ( have_rows('gallery') ) : the_row();?>
         <?php if( have_rows('background_video') ):
         while ( have_rows('background_video') ) : the_row();
         $video = get_sub_field('background_video');?>
-        <video autoplay muted id="myVideo">
+        <video controls id="myVideo">
             <source src="<?php echo $video['url'];?>" type="video/mp4">
         </video>
         <?php endwhile; endif; //image repeater?>
