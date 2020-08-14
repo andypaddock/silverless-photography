@@ -230,3 +230,8 @@ a {
   text-transform: initial;
   font-size: 3rem;
 }
+
+.gallery__video {
+  grid-column: span 12;
+  height: 35vh;
+}
