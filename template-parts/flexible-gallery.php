@@ -68,9 +68,10 @@ while ( have_rows('gallery') ) : the_row();?>
     <?php elseif( get_row_layout() == 'video' ):?>
     <?php $imageHeight = get_sub_field('height');?>
     <?php $alignment = get_sub_field('alignment');?>
+    <?php $thumbImage = get_sub_field('thumbnail_image');?>
     <?php $video = get_sub_field('background_video');?>
     <?php if($video) :?>
-    <div class="gallery__video slide-up" style="height:<?php echo $imageHeight;?>vh;">
+    <div class="gallery__video slide-up" style="height:35vh;">
 
         <a href="<?php echo $video['url']; ?>" class="mfp-iframe" alt="<?php echo $halfImage['alt']; ?>"
             style="background-image: url(<?php echo $thumbImage['url']; ?>);">
