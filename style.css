@@ -11,17 +11,19 @@ Version:		 1.0.0
 Text Domain:	 silverless-photography
 */
 /* === 1 - ADJUSTMENTS ===*/
+/*! == PHOTO VARIABLES == */
+/* COLORS */
 body {
   background: #29232C;
   color: #f7f3f2;
 }
 
 a {
-  color: #FE4C42;
+  color: #fe4c42;
 }
 
 .cta-contact-header .button {
-  background: #FE4C42;
+  background: #fe4c42;
 }
 
 .home .darkest-wrapper {
@@ -56,22 +58,22 @@ a {
   text-align: center;
 }
 .footer .button__global {
-  background: #FE4C42;
+  background: #fe4c42;
 }
 
 .hamburger-menu {
-  background: #FE4C42;
+  background: #fe4c42;
 }
 .hamburger-menu::before, .hamburger-menu::after {
-  background: #FE4C42;
+  background: #fe4c42;
 }
 
 .slide-nav__item:before {
-  background: #FE4C42;
+  background: #fe4c42;
 }
 
 .nav-trigger span {
-  color: #FE4C42;
+  color: #fe4c42;
 }
 
 .st1 {
