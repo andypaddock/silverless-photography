@@ -251,3 +251,8 @@ a {
         }
     }
 }
+
+.gallery__video {
+    grid-column: span 12;
+    height: 35vh;
+}
