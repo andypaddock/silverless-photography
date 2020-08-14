@@ -67,14 +67,15 @@ while ( have_rows('gallery') ) : the_row();?>
 
     <?php elseif( get_row_layout() == 'video' ):?>
     <?php $imageHeight = get_sub_field('height');?>
-    <div class="gallery__video slide-up" style="width:<?php echo $imageHeight;?>vh;">
-        <?php $video = get_sub_field('background_video'); 
-        if($video):
-        ?>
-        <video controls id="myVideo">
-            <source src="<?php echo $video['url'];?>" type="video/mp4">
-        </video>
-        <?php endif; //image repeater?>
+    <?php $alignment = get_sub_field('alignment');?>
+    <div class="gallery__video <?php echo $alignment;?> slide-up" style="height:<?php echo $imageHeight;?>vh;">
+        <?php if( have_rows('video') ):
+        while ( have_rows('video') ) : the_row();
+        $video = get_sub_field('background_video');?>
+        <a href="<?php echo $video['url']; ?>" class="lightbox-gallery" alt="<?php echo $halfImage['alt']; ?>"
+            style="background-image: url(<?php echo $thumbImage['url']; ?>);">
+            <!--<?php echo $halfImage['caption']; ?>--></a>
+        <?php endwhile; endif; //image repeater?>
     </div>
 
 
