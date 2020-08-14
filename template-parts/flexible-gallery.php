@@ -72,7 +72,7 @@ while ( have_rows('gallery') ) : the_row();?>
     <?php if($video) :?>
     <div class="gallery__video slide-up" style="height:<?php echo $imageHeight;?>vh;">
 
-        <a href="<?php echo $video['url']; ?>" class="lightbox-gallery" alt="<?php echo $halfImage['alt']; ?>"
+        <a href="<?php echo $video['url']; ?>" class="mfp-iframe" alt="<?php echo $halfImage['alt']; ?>"
             style="background-image: url(<?php echo $thumbImage['url']; ?>);">
             <!--<?php echo $halfImage['caption']; ?>--></a>
         <?php endif; //image repeater?>
