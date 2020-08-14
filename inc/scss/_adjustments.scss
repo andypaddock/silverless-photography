@@ -1,19 +1,19 @@
 body {
-    background: #29232C;
+    background: $color_photo_dark;
     color: #f7f3f2;
 }
 
 a {
-    color: #FE4C42;
+    color: $color_photo_red;
 }
 
 .cta-contact-header .button {
-    background: #FE4C42;
+    background: $color_photo_red;
 }
 
 .home {
     .darkest-wrapper {
-        background: #29232C;
+        background: $color_photo_dark;
     }
 
     .footer-contact {
@@ -47,7 +47,7 @@ a {
     text-align: center;
 
     &__global {
-        background: #FE4C42;
+        background: $color_photo_red;
     }
 }
 
@@ -55,18 +55,18 @@ a {
 
     &::before,
     &::after {
-        background: #FE4C42;
+        background: $color_photo_red;
     }
 
-    background: #FE4C42;
+    background: $color_photo_red;
 }
 
 .slide-nav__item:before {
-    background: #FE4C42;
+    background: $color_photo_red;
 }
 
 .nav-trigger span {
-    color: #FE4C42;
+    color: $color_photo_red;
 }
 
 .st1 {
@@ -75,7 +75,7 @@ a {
 
 .dark-wrapper,
 .light-wrapper {
-    background: #211b24;
+    background: $color_photo_darkest;
 }
 
 .team .lead-copy {
@@ -86,7 +86,7 @@ a {
 
 .form-field,
 .checkbox label::before {
-    background: #211b24;
+    background: $color_photo_darkest;
 }
 
 .wpcf7-submit {
