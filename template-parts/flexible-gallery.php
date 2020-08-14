@@ -68,7 +68,7 @@ while ( have_rows('gallery') ) : the_row();?>
     <?php elseif( get_row_layout() == 'video' ):?>
     <?php $imageHeight = get_sub_field('height');?>
     <?php $alignment = get_sub_field('alignment');?>
-    <div class="gallery__video <?php echo $alignment;?> slide-up" style="height:<?php echo $imageHeight;?>vh;">
+    <div class="gallery__video slide-up" style="height:<?php echo $imageHeight;?>vh;">
         <?php if( have_rows('video') ):
         while ( have_rows('video') ) : the_row();
         $video = get_sub_field('background_video');?>
