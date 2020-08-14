@@ -69,7 +69,7 @@ while ( have_rows('gallery') ) : the_row();?>
     <?php $imageHeight = get_sub_field('height');?>
     <?php $alignment = get_sub_field('alignment');?>
     <?php $video = get_sub_field('background_video');?>
-    <?php if($imageType == 'yes') :?>
+    <?php if($video) :?>
     <div class="gallery__video slide-up" style="height:<?php echo $imageHeight;?>vh;">
 
         <a href="<?php echo $video['url']; ?>" class="lightbox-gallery" alt="<?php echo $halfImage['alt']; ?>"
