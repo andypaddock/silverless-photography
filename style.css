@@ -232,3 +232,7 @@ a {
   grid-column: span 12;
   height: 100%;
 }
+
+.contain-content textarea {
+  background: #e8f0fe;
+}
