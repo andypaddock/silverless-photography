@@ -80,12 +80,13 @@ while ( have_rows('gallery') ) : the_row();?>
 
     <?php elseif( get_row_layout() == 'videoembed' ):?>
     <?php $alignment = get_sub_field('alignment');?>
-    <?php $thumbImage = get_sub_field('thumbnail_image');?>
+    <?php $thumbImage = get_sub_field('embed_thumbnail');?>
     <?php $videolink = get_sub_field('embed_video');?>
     <?php if($videolink) :?>
     <div class="gallery__video slide-up" style="height:35vh;">
 
-        <a href="<?php echo $videolink; ?>" class="mfp-iframe">
+        <a href="<?php echo $videolink; ?>" class="mfp-iframe"
+            style="background-image: url(<?php echo $thumbImage['url']; ?>);">>
             <!--<?php echo $halfImage['caption']; ?>--></a>
         <?php endif; //image repeater?>
     </div>
