@@ -194,9 +194,6 @@ a {
 .toggle-list__item {
   padding-bottom: 1rem;
 }
-.toggle-list__item .trigger {
-  line-height: unset;
-}
 
 .toggle-list i {
   padding-left: 2rem;
