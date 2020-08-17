@@ -263,7 +263,8 @@ a {
 
 .wpcf7-form input[type="text"]:focus,
 .wpcf7-form input[type="email"]:focus,
+.wpcf7-form input[type="tel"]:focus,
 .wpcf7-form textarea:focus {
-    background: #fff;
-    color: #333;
+    background: #f7f3f2;
+    color: #29232c;
 }
