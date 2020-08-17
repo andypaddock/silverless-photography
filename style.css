@@ -232,3 +232,17 @@ a {
   grid-column: span 12;
   height: 100%;
 }
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea {
+  background: #fff;
+  color: #333;
+}
+
+.contact-form input[type=text]:focus,
+.contact-form input[type=email]:focus,
+.contact-form textarea:focus {
+  background: #fff;
+  color: #333;
+}
