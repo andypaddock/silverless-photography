@@ -235,9 +235,10 @@ a {
 
 .wpcf7-form input[type=text],
 .wpcf7-form input[type=email],
+.wpcf7-form input[type=tel],
 .wpcf7-form textarea {
-  background: #fff;
-  color: #333;
+  background: #29232c;
+  color: #f7f3f2;
 }
 
 .wpcf7-form input[type=text]:focus,
