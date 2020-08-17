@@ -86,7 +86,7 @@ while ( have_rows('gallery') ) : the_row();?>
     <div class="gallery__video slide-up" style="height:35vh;">
 
         <a href="<?php echo $videolink; ?>" class="mfp-iframe"
-            style="background-image: url(<?php echo $thumbImage['url']; ?>);">>
+            style="background-image: url(<?php echo $thumbImage['url']; ?>);">
             <!--<?php echo $halfImage['caption']; ?>--></a>
         <?php endif; //image repeater?>
     </div>
